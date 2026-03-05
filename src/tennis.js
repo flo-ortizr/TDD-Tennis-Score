@@ -12,36 +12,16 @@ class Tennis {
     }
 
     score(){
-        if(this.player1Points == 3 && this.player2Points == 3){
+        if(this.player1Points >= 4 || this.player2Points >= 4){
+            let diff = this.player1Points - this.player2Points;
+            if(diff >=2) return "Game for Player 1";
+            if(diff <=-2) return "Game for Player 2";
+            if(diff ==1) return "Advantage for Player 1";
+            if(diff ==-1) return "Advantage for Player 2";
             return "Deuce";
         }
 
-        if(this.player1Points == 4 && this.player2Points == 3){
-            return "Advantage for Player 1";
-        }
-
-        if(this.player1Points == 3 && this.player2Points == 4){
-            return "Advantage for Player 2";
-        }
-
-        if(this.player1Points == 5 && this.player2Points == 3){
-            return "Game for Player 1";
-        }
-
-        if(this.player1Points == 3 && this.player2Points == 5){
-            return "Game for Player 2";
-        }
-
-        if(this.player1Points == 4){
-            return "Game for player 1";
-        }
-
-        if(this.player2Points == 4){
-            return "Game for Player 2";
-        }
-
-        let player1Score = "Love";
-        let player2Score = "Love";
+        if(this.player1Points == 3 && this.player2Points == 3) return "Deuce";
 
         return this.getScoreText(this.player1Points) + 
            " - " + 

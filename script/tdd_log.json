@@ -498,9 +498,39 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8fe8080eb898bb049f92aa4c4dd5a36d3a3e78d",
     "commitName": "feat: game for player2 after advantage",
     "commitTimestamp": 1772685304053,
     "testId": 19
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1772685473166,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1772685685234,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1772685690487,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: reduce if statements using difference between poimts",
+    "commitTimestamp": 1772685727529,
+    "testId": 20
   }
 ]

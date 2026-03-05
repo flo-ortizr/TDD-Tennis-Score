@@ -34,7 +34,7 @@ describe("Tennis Scorer", () => {
     tennis.player1Scores();
     tennis.player1Scores();
     tennis.player1Scores();
-    expect(tennis.score()).toEqual("Game for player 1");
+    expect(tennis.score()).toEqual("Game for Player 1");
   });
 
   //Pruebas jugador 2

@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8fe8080eb898bb049f92aa4c4dd5a36d3a3e78d",
     "author": "Flora",
     "commit": {
       "date": "2026-03-05T04:35:02.000Z",
       "message": "feat: game for player2 after advantage",
-      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/f8fe8080eb898bb049f92aa4c4dd5a36d3a3e78d"
     },
     "stats": {
       "total": 15,
@@ -375,6 +375,25 @@
       "date": "2026-03-05"
     },
     "coverage": 100,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-05T04:42:06.000Z",
+      "message": "refactor: reduce if statements using difference between poimts",
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 8,
+      "deletions": 28,
+      "date": "2026-03-05"
+    },
+    "coverage": 96.15,
     "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
