@@ -68,7 +68,7 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 2");
  });
 
- //Pruebas Deuce y Ventaja
+ //Pruebas Deuce y Ventaja Player 1
  it ("jugador 1 anota 3 veces jugador 2 anota 3 veces", () => {
   let tennis = new Tennis();
   for (let i=0; i<3; i++){
@@ -97,7 +97,18 @@ describe("Tennis Scorer", () => {
   tennis.player1Scores();
   tennis.player1Scores();
   expect(tennis.score()).toEqual("Game for Player 1");
-});
+ });
+
+ //Pruebas Deuce y Ventaja Player 1
+  it("Deuce jugador 2 anota => Advantage for Player 2", () => {
+    let tennis = new Tennis();
+    for (let i=0; i<3; i++){
+      tennis.player1Scores();
+      tennis.player2Scores();
+    }
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Advantage for Player 2");
+  });
 
 });
 
