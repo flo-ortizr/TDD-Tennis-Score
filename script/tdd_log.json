@@ -286,9 +286,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9027cbe87e54309c9491a9dee449bec3cf6ef1b7",
     "commitName": "feat: game for player 1",
     "commitTimestamp": 1772681377752,
     "testId": 9
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772682182766,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772682389619,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: player 2 scores",
+    "commitTimestamp": 1772682894431,
+    "testId": 10
   }
 ]
