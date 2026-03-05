@@ -20,6 +20,10 @@ class Tennis {
             return "Advantage for Player 1";
         }
 
+        if(this.player1Points == 5 && this.player2Points == 3){
+            return "Game for Player 1";
+        }
+
         if(this.player1Points == 4){
             return "Game for player 1";
         }

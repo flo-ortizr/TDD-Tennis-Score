@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c058006f6b2dd37accf31e5c762008addb15391c",
     "author": "Flora",
     "commit": {
       "date": "2026-03-05T04:26:03.000Z",
       "message": "feat: advantage for player 1",
-      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/c058006f6b2dd37accf31e5c762008addb15391c"
     },
     "stats": {
       "total": 14,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-05T04:29:30.000Z",
+      "message": "feat: game for player1 after advantage",
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
