@@ -3,29 +3,24 @@ class Tennis {
         this.player1Points = 0;
         this.player2Points = 0;
     }
+
+    getScoreText(points) {
+        if(points == 0) return "Love";
+        if(points == 1) return "15";
+        if(points == 2) return "30";
+        if(points == 3) return "40";
+    }
+
     score(){
         if(this.player1Points == 4){
             return "Game for player 1";
         }
         let player1Score = "Love";
         let player2Score = "Love";
-        if(this.player1Points == 1){
-            player1Score= "15"
-        }
-        if(this.player1Points == 2){
-            player1Score= "30"
-        }
-        if(this.player1Points == 3){
-            player1Score= "40"
-        }
 
-        if(this.player1Points == 0 && this.player2Points == 1){
-            return "Love - 15";
-        }
-
-        return player1Score+" - "+player2Score;
-
-        
+        return this.getScoreText(this.player1Points) + 
+           " - " + 
+           this.getScoreText(this.player2Points);
     }
 
     player1Scores(){
