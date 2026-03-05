@@ -28,6 +28,10 @@ class Tennis {
             return "Game for Player 1";
         }
 
+        if(this.player1Points == 3 && this.player2Points == 5){
+            return "Game for Player 2";
+        }
+
         if(this.player1Points == 4){
             return "Game for player 1";
         }

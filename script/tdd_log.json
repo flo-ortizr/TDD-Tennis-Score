@@ -476,9 +476,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95c83a239a8e93740961b0ecca99635806750dab",
     "commitName": "feat: advantage for player2",
     "commitTimestamp": 1772685189160,
     "testId": 18
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1772685224306,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1772685247723,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: game for player2 after advantage",
+    "commitTimestamp": 1772685304053,
+    "testId": 19
   }
 ]
