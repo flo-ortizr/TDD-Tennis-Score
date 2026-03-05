@@ -322,9 +322,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "304a75cbd3fa0ce595e7c2291f2f7e94411a23f7",
     "commitName": "refactor: helper function to write score",
     "commitTimestamp": 1772683230973,
     "testId": 11
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772683308933,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772683339077,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: player2 scores 2 times",
+    "commitTimestamp": 1772683434127,
+    "testId": 12
   }
 ]

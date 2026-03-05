@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "304a75cbd3fa0ce595e7c2291f2f7e94411a23f7",
     "author": "Flora",
     "commit": {
       "date": "2026-03-05T04:00:28.000Z",
       "message": "refactor: helper function to write score",
-      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/304a75cbd3fa0ce595e7c2291f2f7e94411a23f7"
     },
     "stats": {
       "total": 27,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Flora",
+    "commit": {
+      "date": "2026-03-05T04:03:52.000Z",
+      "message": "test: player2 scores 2 times",
+      "url": "https://github.com/flo-ortizr/TDD-Tennis-Score/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
